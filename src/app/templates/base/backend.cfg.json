@@ -1,0 +1,6 @@
+{
+  "gaeProject": "test-project",
+  "gaeService": "default",
+  "prodBranch": "master",
+  "appEnvDefault": "prod"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "<%= npmName %>",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "APP_ENV=dev nodemon",
+    "startJs": "TS_NODE_PROJECT=./tsconfig.dist.json APP_ENV=dev yarn start",
+    "start": "node ./dist/startServer.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= githubFullName %>"
+  },
+  "engines": {
+    "node": ">=10.13"
+  },
+  "author": "<%= moduleAuthor %>"
+}
