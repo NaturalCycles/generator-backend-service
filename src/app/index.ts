@@ -160,7 +160,14 @@ class AppGenerator extends Generator {
 
     const copyOptions = { globOptions: { dot: true } }
     this.fs.copyTpl(
-      this.templatePath('base/**', `${profile}/**`),
+      this.templatePath('base/**'),
+      this.destinationPath(),
+      this.answers,
+      undefined,
+      copyOptions,
+    )
+    this.fs.copyTpl(
+      this.templatePath(`${profile}/**`),
       this.destinationPath(),
       this.answers,
       undefined,
