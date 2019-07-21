@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/NaturalCycles/generator-backend-service/compare/v1.0.1...v1.1.0) (2019-07-21)
+
+
+### Features
+
+* use yeoman-lib ([aeeb896](https://github.com/NaturalCycles/generator-backend-service/commit/aeeb896))
+
 ## [1.0.1](https://github.com/NaturalCycles/generator-backend-service/compare/v1.0.0...v1.0.1) (2019-07-21)
 
 
