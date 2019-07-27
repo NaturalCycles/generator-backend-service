@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/NaturalCycles/generator-backend-service/compare/v1.1.0...v1.1.1) (2019-07-27)
+
+
+### Bug Fixes
+
+* package.json node version ([cf45174](https://github.com/NaturalCycles/generator-backend-service/commit/cf45174))
+
 # [1.1.0](https://github.com/NaturalCycles/generator-backend-service/compare/v1.0.1...v1.1.0) (2019-07-21)
 
 
