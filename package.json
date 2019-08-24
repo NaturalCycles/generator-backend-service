@@ -30,7 +30,7 @@
   "keywords": [
     "yeoman-generator"
   ],
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Yeoman generator to create a Backend service",
   "author": "Natural Cycles Team",
   "license": "MIT"
