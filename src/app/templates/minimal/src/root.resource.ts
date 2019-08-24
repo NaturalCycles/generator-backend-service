@@ -1,13 +1,19 @@
-import { createRootHandler, getDefaultRouter } from '@naturalcycles/backend-lib'
+import { getDefaultRouter, okHandler, statusHandler } from '@naturalcycles/backend-lib'
 
 const router = getDefaultRouter()
 export const rootResource = router
 
-router.get('/', createRootHandler())
+router.get('/', okHandler())
+
+// router.get('/login.html', loginHtml(adminService))
+
+router.get('/status', statusHandler())
 
 router.get('/debug', async (req, res) => {
   res.json({
-    env: process.env,
+    // adminInfo: await adminService.getAdminInfo(req),
+    headers: req.headers,
+    // env: process.env, // can be sensitive
   })
 })
 

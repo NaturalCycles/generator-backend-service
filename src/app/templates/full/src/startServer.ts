@@ -18,11 +18,13 @@ import '@src/bootstrap'
 //
 import { startServer } from '@naturalcycles/backend-lib'
 import { expressApp } from '@src/express.app'
+import { warmup } from '@src/warmup'
 
 startServer({
   bootstrapStartedAt,
   expressApp,
 })
+  .then(() => warmup())
   .catch(err => {
     console.error(err)
     process.exit(1)

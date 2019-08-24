@@ -1,1 +1,3 @@
-require('dotenv').config() // reads from .env file
+import { loadSecretsFromEnv } from '@naturalcycles/nodejs-lib'
+
+loadSecretsFromEnv()
