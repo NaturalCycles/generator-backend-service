@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/NaturalCycles/generator-backend-service/compare/v1.2.0...v1.2.1) (2019-11-28)
+
+
+### Bug Fixes
+
+* deps ([d389f4a](https://github.com/NaturalCycles/generator-backend-service/commit/d389f4a1bdc0298c49ccbdc849e52d171d885b8a))
+
 # [1.2.0](https://github.com/NaturalCycles/generator-backend-service/compare/v1.1.1...v1.2.0) (2019-08-24)
 
 
