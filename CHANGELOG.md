@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/NaturalCycles/generator-backend-service/compare/v1.2.1...v1.3.0) (2019-12-23)
+
+
+### Features
+
+* change to node12 default ([aa190eb](https://github.com/NaturalCycles/generator-backend-service/commit/aa190ebe7119fb55be0a99d11dffbf6a97f3e001))
+
 ## [1.2.1](https://github.com/NaturalCycles/generator-backend-service/compare/v1.2.0...v1.2.1) (2019-11-28)
 
 
