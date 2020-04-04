@@ -5,8 +5,6 @@ export class EnvProd {
   prod = true
   dev = false
 
-  swaggerStatsEnabled = true
-
   sentryServiceCfg: SentrySharedServiceCfg = {
     environment: 'prod',
     // dsn: '',

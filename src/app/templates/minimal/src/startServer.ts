@@ -12,7 +12,6 @@ startServer({
     resources: {
       '/': rootResource,
     },
-    swaggerStatsEnabled: true,
   }),
 }).catch(err => {
   console.error(err)

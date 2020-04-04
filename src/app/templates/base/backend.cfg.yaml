@@ -1,0 +1,9 @@
+gaeProject: test-project
+
+gaeService: default
+
+prodBranch: master
+
+appEnvDefault: prod
+
+appYamlPassEnv: 'SECRET_FIREBASE_AUTH_DOMAIN,SECRET_FIREBASE_API_KEY'

@@ -8,18 +8,11 @@ const YARN_DEPS = [
   '@naturalcycles/time-lib',
   '@sentry/node',
   'dotenv',
-  'swagger-stats',
   'tsconfig-paths',
   'firebase-admin',
 ]
 
-const YARN_DEV_DEPS = [
-  '@naturalcycles/dev-lib',
-  '@naturalcycles/test-lib',
-  '@types/node',
-  'jest',
-  'nodemon',
-]
+const YARN_DEV_DEPS = ['@naturalcycles/dev-lib', '@types/node', 'jest', 'nodemon']
 
 interface AllAnswers extends Answers, BaseAnswers {}
 

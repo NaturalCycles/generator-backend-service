@@ -6,8 +6,6 @@ export class EnvDev extends EnvProd {
   prod = false
   dev = true
 
-  swaggerStatsEnabled = false
-
   sentryServiceCfg = {
     // dsn: undefined,
   }

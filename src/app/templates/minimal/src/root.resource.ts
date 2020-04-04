@@ -18,5 +18,5 @@ router.get('/debug', async (req, res) => {
 })
 
 router.get('/_ah/warmup', async (req, res) => {
-  res.status(200).end()
+  res.end()
 })
