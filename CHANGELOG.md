@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/NaturalCycles/generator-backend-service/compare/v1.3.0...v1.3.1) (2020-04-04)
+
+
+### Bug Fixes
+
+* modernize ([65961de](https://github.com/NaturalCycles/generator-backend-service/commit/65961de54d4905a56f3a8f52fb17f4b91462c977))
+
 # [1.3.0](https://github.com/NaturalCycles/generator-backend-service/compare/v1.2.1...v1.3.0) (2019-12-23)
 
 
