@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/NaturalCycles/generator-backend-service/compare/v1.4.0...v1.4.1) (2021-04-04)
+
+
+### Bug Fixes
+
+* deps ([786c9f4](https://github.com/NaturalCycles/generator-backend-service/commit/786c9f47d44a3063fc55926241553e4f8b2b99bb))
+
 # [1.4.0](https://github.com/NaturalCycles/generator-backend-service/compare/v1.3.1...v1.4.0) (2021-04-04)
 
 
