@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/NaturalCycles/generator-backend-service/compare/v1.3.1...v1.4.0) (2021-04-04)
+
+
+### Features
+
+* modernize ([a9db6b7](https://github.com/NaturalCycles/generator-backend-service/commit/a9db6b780433b65b1362dd8bac480093eb4e7304))
+
 ## [1.3.1](https://github.com/NaturalCycles/generator-backend-service/compare/v1.3.0...v1.3.1) (2020-04-04)
 
 
