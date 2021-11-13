@@ -5,10 +5,9 @@
   "ignore": ["node_modules", "src/**/*.test.ts"],
   "env": {
     "TZ": "UTC",
-    "DEBUG": "app*,nc:*",
     "NODE_ENV": "development"
   },
-  "verbose": true,
+  "verbose": false,
   "events": {
     "start": "clear"
   },

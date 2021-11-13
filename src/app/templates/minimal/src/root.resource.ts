@@ -17,6 +17,6 @@ router.get('/debug', async (req, res) => {
   })
 })
 
-router.get('/_ah/warmup', async (req, res) => {
+router.get('/_ah/warmup', (req, res) => {
   res.end()
 })

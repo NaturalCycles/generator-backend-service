@@ -1,19 +1,20 @@
 /* tslint:disable:ordered-imports */
 console.log('startServer... ')
-const bootstrapStartedAt = Date.now()
 
 import 'tsconfig-paths/register'
-import { createDefaultApp, startServer } from '@naturalcycles/backend-lib'
+import { startServer } from '@naturalcycles/backend-lib'
+import { pHang } from '@naturalcycles/js-lib'
+import { runScript } from '@naturalcycles/nodejs-lib'
 import { rootResource } from '@src/root.resource'
 
-startServer({
-  bootstrapStartedAt,
-  expressApp: createDefaultApp({
-    resources: {
-      '/': rootResource,
-    },
-  }),
-}).catch(err => {
-  console.error(err)
-  process.exit(1)
+runScript(async () => {
+  await startServer({
+    resources: [{
+      path: '/',
+      handler: rootResource,
+    }],
+  })
+
+  await pHang() // keep server running
 })
+

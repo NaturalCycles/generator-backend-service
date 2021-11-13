@@ -1,6 +1,7 @@
 {
   "extends": "@naturalcycles/backend-lib/cfg/tsconfig.json",
   "compilerOptions": {
+    "sourceMap": true,
     "outDir": "dist",
     "baseUrl": "./",
     "paths": {

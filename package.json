@@ -1,18 +1,19 @@
 {
   "name": "@naturalcycles/generator-backend-service",
   "scripts": {
+    "prepare": "husky install",
     "build-copy": "kpy ./src '**/templates/**' ./generators --dotfiles",
     "build": "tsc && yarn build-copy",
     "build-prod": "tsc -P ./tsconfig.prod.json && yarn build-copy"
   },
   "dependencies": {
-    "@naturalcycles/nodejs-lib": "^12.14.0",
-    "@naturalcycles/yeoman-lib": "^1.0.4"
+    "@naturalcycles/nodejs-lib": "^12.55.0",
+    "@naturalcycles/yeoman-lib": "^1.2.2"
   },
   "devDependencies": {
-    "@naturalcycles/dev-lib": "^10.13.0",
-    "@types/node": "^14.14.37",
-    "jest": "^26.6.3"
+    "@naturalcycles/dev-lib": "^12.12.2",
+    "@types/node": "^16.11.7",
+    "jest": "^27.3.1"
   },
   "files": [
     "generators"
@@ -25,7 +26,7 @@
     "url": "https://github.com/NaturalCycles/generator-backend-service"
   },
   "engines": {
-    "node": ">=10.13"
+    "node": ">=14.15.0"
   },
   "keywords": [
     "yeoman-generator"

@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "serve": "DEBUG=nc:*,app* APP_ENV=dev nodemon",
+    "prepare": "husky install",
+    "serve": "APP_ENV=dev nodemon",
     "startJs": "TS_NODE_PROJECT=./tsconfig.dist.json APP_ENV=dev yarn start",
     "start": "node ./dist/startServer.js"
   },
