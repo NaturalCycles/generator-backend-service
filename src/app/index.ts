@@ -92,8 +92,8 @@ class AppGenerator extends BaseGenerator {
     const { skipInstall } = this.options as BaseOptions
     if (skipInstall) return
 
-    await this.spawnCommandSync(`yarn`, ['add', '-D', ...YARN_DEV_DEPS])
-    await this.spawnCommandSync(`yarn`, ['add', ...YARN_DEPS])
+    await this.spawnCommandSync(`yarn`, ['add', '--ignore-engines', '-D', ...YARN_DEV_DEPS])
+    await this.spawnCommandSync(`yarn`, ['add', '--ignore-engines', ...YARN_DEPS])
     await this.spawnCommandSync(`yarn`, ['update-from-dev-lib'])
   }
 
