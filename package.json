@@ -7,12 +7,14 @@
     "build-prod": "tsc -P ./tsconfig.prod.json && yarn build-copy"
   },
   "dependencies": {
-    "@naturalcycles/nodejs-lib": "^12.55.0",
+    "@naturalcycles/js-lib": "^14.76.0",
+    "@naturalcycles/nodejs-lib": "^12.62.0",
     "@naturalcycles/yeoman-lib": "^1.2.2"
   },
   "devDependencies": {
+    "@naturalcycles/backend-lib": "^4.2.3",
     "@naturalcycles/dev-lib": "^12.12.2",
-    "@types/node": "^16.11.7",
+    "@types/node": "^17.0.13",
     "jest": "^27.3.1"
   },
   "files": [
@@ -26,7 +28,7 @@
     "url": "https://github.com/NaturalCycles/generator-backend-service"
   },
   "engines": {
-    "node": ">=14.15.0"
+    "node": ">=16.10.0"
   },
   "keywords": [
     "yeoman-generator"

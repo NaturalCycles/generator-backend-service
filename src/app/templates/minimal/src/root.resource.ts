@@ -1,13 +1,13 @@
-import { getDefaultRouter, okHandler, statusHandler } from '@naturalcycles/backend-lib'
+import { getDefaultRouter, okMiddleware, serverStatusMiddleware } from '@naturalcycles/backend-lib'
 
 const router = getDefaultRouter()
 export const rootResource = router
 
-router.get('/', okHandler())
+router.get('/', okMiddleware())
 
 // router.get('/login.html', loginHtml(adminService))
 
-router.get('/status', statusHandler())
+router.get('/status', serverStatusMiddleware())
 
 router.get('/debug', async (req, res) => {
   res.json({

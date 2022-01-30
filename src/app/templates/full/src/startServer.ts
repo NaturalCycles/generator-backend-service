@@ -1,27 +1,13 @@
-/* tslint:disable:ordered-imports */
-
-//
-// 1. Log 'startServer' and record `bootstrapStarted`
-//
 console.log('startServer... ')
-const bootstrapStartedAt = Date.now()
 
-//
-// 2. Imports
-// These imports should be always on top
-//
+/* tslint:disable:ordered-imports */
 import 'tsconfig-paths/register'
 import '@src/bootstrap'
-
-//
-// 3. Further imports and bootstrap
-//
 import { startServer } from '@naturalcycles/backend-lib'
-import { expressApp } from '@src/express.app'
-import { warmup } from '@src/warmup'
+import { expressApp } from './express.app'
+import { warmup } from './warmup'
 
 startServer({
-  bootstrapStartedAt,
   expressApp,
 })
   .then(() => warmup())

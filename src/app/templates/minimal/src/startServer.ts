@@ -5,7 +5,7 @@ import 'tsconfig-paths/register'
 import { startServer } from '@naturalcycles/backend-lib'
 import { pHang } from '@naturalcycles/js-lib'
 import { runScript } from '@naturalcycles/nodejs-lib'
-import { rootResource } from '@src/root.resource'
+import { rootResource } from './root.resource'
 
 runScript(async () => {
   await startServer({
